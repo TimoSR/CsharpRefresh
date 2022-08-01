@@ -22,6 +22,12 @@ public class Tests
     {
         Assert.That(_lasagna.PreparationTimeInMinutes(3), Is.EqualTo(6));
     }
+
+    [Test]
+    public void Test4()
+    {
+        Assert.That(_lasagna.ElapsedTimeInMinutes(3, 20), Is.EqualTo(26));
+    }
     
     
 }
